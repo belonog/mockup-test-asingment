@@ -118,6 +118,8 @@
         line-height: 18px;
         font-size: 14px;
         letter-spacing: 0.5px;
+        width: 100%;
+        outline: none;
 
         &::placeholder {
             color: rgba(37, 47, 72, 0.3);
