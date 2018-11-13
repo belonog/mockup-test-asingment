@@ -239,13 +239,14 @@
         background: #fff;
         border: none;
         resize: none;
+        outline: none;
 
         &::placeholder {
             font-size: 14px;
             letter-spacing: 0.5px;
             color: #252f48;
             opacity: 0.2;
-            line-height: 4em;
+            line-height: 3em;
         }
     }
 
