@@ -1,0 +1,31 @@
+.breadcrumb {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    &-item {
+        display: inline-block;
+        font-size: 13px;
+        line-height: 1.153;
+
+        &::before {
+            content: '\e906';
+            font-family: 'icomoon';
+            padding: 0 1.2em;
+            font-size: .65em;
+            color: #0AD69C;
+        }
+
+        &:first-child::before {
+            content: none;
+        }
+    }
+
+    &-link,
+    &-link:hover {
+        color: inherit;
+    }
+}

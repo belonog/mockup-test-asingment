@@ -1,0 +1,12 @@
+@import 'icon-font';
+
+.layout-wrapper {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    min-height: 100%;
+}
+
+.content {
+    flex: auto;
+    background: #F9FAFC;
+}
